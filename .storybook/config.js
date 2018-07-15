@@ -2,7 +2,7 @@ import { configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
 setOptions({
-  name: 'Peachy ER Web',
+  name: 'Peachy storybook',
   goFullScreen: false,
   showAddonsPanel: true,
   showSearchBox: false,
