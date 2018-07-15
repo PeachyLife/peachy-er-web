@@ -13,10 +13,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "styleguide": "styleguidist server"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0-alpha.14",
-    "@storybook/react": "^4.0.0-alpha.14"
+    "@storybook/react": "^4.0.0-alpha.14",
+    "react-styleguidist": "^7.1.0"
   }
 }
